@@ -1,0 +1,30 @@
+#include <cstdio>
+#include <stdio.h>
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+int main() {
+    int in_num;
+    
+  cin >> in_num;
+  
+  if (in_num == 0) {
+    cout << "Hello World"<< endl;
+  } else if (in_num == 1){
+    cout << "I am Groot"<< endl;
+  } else if (in_num == 2){
+    cout << "To the Top"<< endl;
+  } else if (in_num == 3){
+    cout << "Where is the horizon"<< endl;
+  } else if (in_num == 4){
+    cout << "I do not know"<< endl;
+  }
+  else {
+  cout << "Yeah, I will."<< endl;
+  }
+
+system("PAUSE");
+return EXIT_SUCCESS;
+// return 0;
+}
